@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500&display=swap');
+
+.everything {
+    font-family: 'Lexend Deca', sans-serif;
+}
+.room {
+    font-size: 140%;
+    margin: 0px 3px 3px 3px;
+    padding: 3px 20px;
+    color:#313437;
+    background-color: #e2b711;
+    border-radius: 6px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.rooms {
+    columns: 3 ;
+    column-gap: 2px;
+    margin: 0px 5px 200px 10px;
+}
+html {
+    color:#d1d0c5;
+    background-color: #313437;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+    color: #d1d0c5;
+    font-size: 200%;
+    margin: 0px 0px 0px 10px ;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.freerooms {
+    display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+.iitkgp {
+    margin: 12px 0px 0px 3px;
+    color: #e2b711;
+    font-size: 52%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+select {
+    border: 0px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 100%;
+    font-weight: 500;
+    border-radius: 8px;
+    padding:10px;
+    margin: 10px 10px 0px 10px;
+    color:white;
+    background-color: #2b2e31;
+}
+
+.topbar {
+    display: flex;
+    justify-content:space-between;
+    columns: 2 ;
+}
+
+.input {
+    margin: 10px 0px 20px 10px;
+    width: 80%;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footer {
+    height: 100px;
+    color: white;
+    background-color: rgb(61, 62, 66);
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
 }
