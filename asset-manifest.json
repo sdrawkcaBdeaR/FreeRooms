@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/FreeRooms/static/css/main.34d6f3e4.css",
-    "main.js": "/FreeRooms/static/js/main.f2c8a5cd.js",
+    "main.js": "/FreeRooms/static/js/main.aaadc6de.js",
     "index.html": "/FreeRooms/index.html",
     "main.34d6f3e4.css.map": "/FreeRooms/static/css/main.34d6f3e4.css.map",
-    "main.f2c8a5cd.js.map": "/FreeRooms/static/js/main.f2c8a5cd.js.map"
+    "main.aaadc6de.js.map": "/FreeRooms/static/js/main.aaadc6de.js.map"
   },
   "entrypoints": [
     "static/css/main.34d6f3e4.css",
-    "static/js/main.f2c8a5cd.js"
+    "static/js/main.aaadc6de.js"
   ]
 }
