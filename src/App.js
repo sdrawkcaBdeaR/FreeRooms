@@ -26,7 +26,7 @@ const App=()=>{
     const handleSelectChangeDay =async (event) => {
         setSelectedDay(event.target.value);
 
-        const response=await axios.get(`https://sdrawkcabdear.github.io/FreeRoomsKGP/db.json`)
+        const response=await axios.get(`https://sdrawkcabdear.github.io/FreeRooms/db.json`)
 
         const rdata=response.data[event.target.value][selectedTimeIndex];
         setFreeRooms(rdata.time)
@@ -38,7 +38,7 @@ const App=()=>{
         setSelectedTimeIndex(event.target.selectedIndex);
         setSelectedTime(event.target.value);
 
-        const response=await axios.get(`https://sdrawkcabdear.github.io/FreeRoomsKGP/db.json`)
+        const response=await axios.get(`https://sdrawkcabdear.github.io/FreeRooms/db.json`)
 
         const rdata=response.data[selectedDay][event.target.selectedIndex];
         setFreeRooms(rdata.time)
