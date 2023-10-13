@@ -10,7 +10,7 @@ D4	NC142
 J	Aerodynamics Laboratory
 X	Structures Laboratory
 L	1st Floor Seminar Room
-U3	3rd Year Class Room
+U3	3rd
 F3	3rd Year Class Room
 E3	3rd Year Class Room
 H3	3rd Year Class Room
